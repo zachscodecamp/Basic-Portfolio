@@ -1,0 +1,76 @@
+
+    body{
+        background-color:orange;
+    }
+    
+    #box-one{
+        position: relative;
+        height: 100px;
+        padding: 20px;
+        text-align: center;
+        border: solid;
+        background-color: #ffffff;
+    }
+
+    #name_box{
+        position: absolute;
+        top: 0px;
+        left: 250px;
+        height: 100px;
+        width: 300px;
+        padding: 30px;
+        text-align: center;
+        border: solid;
+         background-color:rgb(32, 179, 19);
+    }
+
+    h2 {
+        color: white;
+    }
+    
+    #navigation_box{
+        position: absolute;
+        top: 40px;
+        right: 200px;
+        font-size: 18px;
+    }
+
+    #main_box{
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-200px; /* this is half the height of your div*/  
+        margin-left:-400px; /*this is half of width of your div*/
+        height: 400px;
+        width: 800px;
+        font-size: 18px;
+        border:solid;
+        background-color: white;
+    }
+
+    #main_box2{
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-200px; /* this is half the height of your div*/  
+        margin-left:-400px; /*this is half of width of your div*/
+        height: 1000px;
+        width: 800px;
+        font-size: 18px;
+        border:solid;
+        background-color: white;
+    }
+
+
+    /* #about-box{
+        position: absolute;
+        top: 70px;
+        left: 16px;
+        height: 50px;
+        width: 100px;
+        padding: 8px;
+        text-align: center;
+        border: solid;
+         background-color:rgb(138, 255, 127);
+
+    } */
